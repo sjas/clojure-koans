@@ -10,8 +10,8 @@
       acc
       (recur (dec n) (not acc)))))
 
-(defn recursive-reverse [coll]
-  (loop [coll coll
+(defn recursive-reverse [asdf]
+  (loop [coll asdf
          acc '()]
     (if (= (count coll) 0)
       acc
